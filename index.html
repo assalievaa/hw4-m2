@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dz4</title>
+    <style>
+        .square{
+            width: 500px;
+            height: 500px;
+            border: 5px red solid;
+        }
+        .traffic_jam{
+            flex-direction: column;
+            display: flex;
+            gap: 10px;
+            background-color: gray;
+            margin: 0 auto;
+            width: fit-content;
+            padding: 20px;
+        }
+        .traffic_jam div{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div>
+      <p>0</p>
+      <div>
+        <button class="increment">+</button>
+        <button class="decrement">-</button>
+      </div>
+    </div>
+    <div class="square">
+
+    </div>
+    <p> X:<span class="x"></span> </p>
+
+    <p> Y:<span class="y"></span> </p>
+    <div class="traffic_jam">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
